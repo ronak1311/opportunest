@@ -1,11 +1,19 @@
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Login from './components/auth/Login';
+const appRouter = createBrowserRouter([
+  {
+    path: '/login',
+    element: <Login />
+  },
 
+])
 function App() {
+
   return (
     <div>
-      <h1 className="text-black-400">Lets Make Job Portal</h1>
+      <RouterProvider router={appRouter} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
