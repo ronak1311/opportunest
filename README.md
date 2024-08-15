@@ -1,7 +1,7 @@
 ## Opportunest: Job Hunting Platform (Under Development)
 
 **Opportunest** is a powerful job portal built with the MERN stack (MongoDB, Express.js, React.js, and Node.js) and Vite for a blazing-fast development experience. It empowers both students and recruiters to connect  seamlessly, streamlining the job hunting process.
-
+[Try this portal here ](https://opportunest-jobportal.vercel.app)
 **Key Features:**
 
 - **User Roles:** 
