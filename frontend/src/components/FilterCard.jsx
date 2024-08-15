@@ -10,7 +10,7 @@ const fitlerData = [
         array: ["Toronto", "Kitchener", "Calgary", "Ottawa", "Monteral"]
     },
     {
-        fitlerType: "Industry",
+        fitlerType: "Role",
         array: ["Frontend Developer", "Backend Developer", "FullStack Developer"]
     },
     {
