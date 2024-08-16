@@ -8,6 +8,8 @@ import Browse from './components/Browse';
 import Profile from './components/Profile';
 import ProtectedRoute from './components/admin/ProtectedRoute';
 import Companies from './components/admin/Companies';
+import CompanyCreate from './components/admin/CompanyCreate';
+import CompanySetup from './components/admin/CompanySetup';
 
 const appRouter = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const appRouter = createBrowserRouter([
   {
     path:"/admin/companies",
     element: <ProtectedRoute><Companies/></ProtectedRoute>
+  },
+  {
+    path:"/admin/companies/create",
+    element: <ProtectedRoute><CompanyCreate/></ProtectedRoute> 
+  },
+  {
+    path:"/admin/companies/:id",
+    element:<ProtectedRoute><CompanySetup/></ProtectedRoute> 
   },
 ])
 function App() {
